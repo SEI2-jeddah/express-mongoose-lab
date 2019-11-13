@@ -1,0 +1,23 @@
+{
+  "name": "express-mongoose-lab",
+  "version": "1.0.0",
+  "description": "## Set Up",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SEI2-jeddah/express-mongoose-lab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SEI2-jeddah/express-mongoose-lab/issues"
+  },
+  "homepage": "https://github.com/SEI2-jeddah/express-mongoose-lab#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.10"
+  }
+}
