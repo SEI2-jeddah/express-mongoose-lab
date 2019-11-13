@@ -1,5 +1,32 @@
-// const mongoose = require('')
+const mongoose = require('mongoose');
+const eventSchema = mongoose.Schema({
+	title:{
+		type: String,
+		required: true
+	},
+	description :{
+		type: String,
+		required: true
+	},	
+	reportedBy :{
+		type: String,
+		required: true
+	},
+	handledBy :{
+		type: String,
+		default: ''
+	},
+	completed :{
+		type: Boolean,
+		default: false
+	},
+	dateReported:{
+		type: Date,
+		default: Date.now
+	},
+});
 
-const noteSchema = new mongoose.Schema({})
+module.exports = mongoose.model('Evants', eventSchema)
 
-module.exports = mongoose.model('Event', eventSchema)
+
+
