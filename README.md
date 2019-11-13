@@ -35,8 +35,10 @@ For this lab, Create a RESTful API using the two separate methods.
 - `GET '/events/:someParameter'` where `:someParameter` grabs a single `Event`
   from the database by id. **NOTE** You can name `:someParameter` whatever you
   want 😬
+  
+4. You should be able to `POST`, `DELETE` and `UPDATE`.
 
-4. Localhost server must be able to run cross domain for fetching info from the API.
+5. Localhost server must be able to run cross domain for fetching info from the API.
 
    **NOTES:**
 
